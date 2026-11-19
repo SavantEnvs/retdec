@@ -1,0 +1,18 @@
+{
+			"functions": {
+				"ff": {
+					"decl": "int ff();",
+					"header": "CHeader.h",
+					"param": [],
+					"name": "ff",
+					"ret_type": "46f8ab7c0cff9df7cd124852e26022a6bf89e315",
+					"vararg": "vararg should be bool, not string"
+				}
+			},
+			"types": {
+				"46f8ab7c0cff9df7cd124852e26022a6bf89e315": {
+					"name": "int",
+					"type": "integral_type"
+				}
+			}
+		}

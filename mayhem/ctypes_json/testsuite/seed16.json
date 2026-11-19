@@ -1,0 +1,17 @@
+{
+			"functions": {
+				"ff": {
+					"decl": "float ff();",
+					"header": "CHeader.h",
+					"name": "ff",
+					"params": [],
+					"ret_type": "685e80366130387cb75c055248326976d16fdf8d"
+				}
+			},
+			"types": {
+				"685e80366130387cb75c055248326976d16fdf8d": {
+					"name": "float",
+					"type": "floating_point_type"
+				}
+			}
+		}

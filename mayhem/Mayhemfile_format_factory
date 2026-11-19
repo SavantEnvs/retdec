@@ -1,0 +1,9 @@
+project: savantenvs/retdec
+target: format_factory
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/format_factory/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_format_factory
+    libfuzzer: true
+    timeout: 10

@@ -1,0 +1,9 @@
+project: savantenvs/retdec
+target: loader_image
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/loader_image/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_loader_image
+    libfuzzer: true
+    timeout: 10

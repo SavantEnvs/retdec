@@ -1,0 +1,9 @@
+{
+			"name" : "A",
+			"constructors" : [ "Actor" ],
+			"destructors" : [ "Adtor" ],
+			"methods" : [ "Amethod" ],
+			"superClasses" : [ "Asuper" ],
+			"virtualMethods" : [ "Avirtual" ],
+			"virtualTables" : [ "Avtable" ]
+	}

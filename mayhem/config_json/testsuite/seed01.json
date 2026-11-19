@@ -1,0 +1,19 @@
+{
+  "date": "2024-01-01", "time": "12:00:00",
+  "decompParams": { "outputFile": "out.c", "verboseOut": false, "selectedFunctions": ["main"] },
+  "architecture": { "name": "x86", "endian": "little", "bitSize": 32 },
+  "fileType": "executable", "fileFormat": "pe32",
+  "tools": [ { "name": "gcc", "version": "4.7.3", "bitSize": 32 } ],
+  "languages": [ { "name": "C++", "bytecode": false, "moduleCount": 1 } ],
+  "functions": [ { "name": "main", "startAddr": "0x401000", "endAddr": "0x401020", "callingConvention": "cdecl",
+                   "returnType": { "llvmIr": "i32" },
+                   "parameters": [ { "name": "argc", "storage": { "type": "stack", "value": 4 }, "type": { "llvmIr": "i32" } } ],
+                   "locals": [ { "name": "x", "storage": { "type": "register", "value": "eax" }, "type": { "llvmIr": "i8*" } } ] } ],
+  "globals": [ { "name": "g", "storage": { "type": "global", "value": "0x402000" }, "type": { "llvmIr": "i32" } } ],
+  "registers": [ { "name": "eax", "storage": { "type": "register", "value": "eax" }, "type": { "llvmIr": "i32" } } ],
+  "structures": [ { "llvmIr": "%s = type { i32, i8* }" } ],
+  "vtables": [ { "name": "vt", "address": "0x403000", "items": [ { "address": "0x403000", "targetAddress": "0x401000", "targetName": "main" } ] } ],
+  "classes": [ { "name": "A", "constructors": ["Actor"], "destructors": ["Adtor"], "methods": ["Am"], "superClasses": [], "virtualMethods": [], "virtualTables": ["vt"] } ],
+  "patterns": [ { "name": "p", "description": "d", "yaraRuleName": "r", "type": "crypto", "endian": "little", "bitSize": 32,
+                  "matches": [ { "address": "0x401000", "offset": "0x400", "size": 4, "entrySize": 4, "type": "integral" } ] } ]
+}

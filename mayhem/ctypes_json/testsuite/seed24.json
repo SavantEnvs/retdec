@@ -1,0 +1,36 @@
+{
+			"functions": {
+				"ff": {
+					"decl": "int ff(int(*)(int));",
+					"header": "tx.h",
+					"name": "ff",
+					"params": [
+						{
+							"name": "",
+							"type": "3c3d53921dd5483b5627bca319d79a6defc2bec5"
+						}
+					],
+					"ret_type": "46f8ab7c0cff9df7cd124852e26022a6bf89e315"
+				}
+			},
+			"types": {
+				"3c3d53921dd5483b5627bca319d79a6defc2bec5": {
+					"pointed_type": "ff960066816ea5557fd43a4d7bb814e635e6f13e",
+					"type": "pointer"
+				},
+				"46f8ab7c0cff9df7cd124852e26022a6bf89e315": {
+					"name": "int",
+					"type": "integral_type"
+				},
+				"ff960066816ea5557fd43a4d7bb814e635e6f13e": {
+					"params": [
+						{
+							"name": "",
+							"type": "46f8ab7c0cff9df7cd124852e26022a6bf89e315"
+						}
+					],
+					"ret_type": "46f8ab7c0cff9df7cd124852e26022a6bf89e315",
+					"type": "function"
+				}
+			}
+		}

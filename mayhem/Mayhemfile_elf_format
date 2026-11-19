@@ -1,0 +1,9 @@
+project: savantenvs/retdec
+target: elf_format
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/elf_format/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_elf_format
+    libfuzzer: true
+    timeout: 10

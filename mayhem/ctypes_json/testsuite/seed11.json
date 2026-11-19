@@ -1,0 +1,26 @@
+{
+			"functions": {
+				"ff": {
+					"decl": "long double ff(long b);",
+					"header": "CHeader.h",
+					"name": "ff",
+					"params": [
+						{
+							"name": "b",
+							"type": "bd3027fa569ea15ca76d84db21c67e2d514c1a5a"
+						}
+					],
+					"ret_type": "b5656629587221b8239b7141684c8f69c57c8f23"
+				}
+			},
+			"types": {
+				"bd3027fa569ea15ca76d84db21c67e2d514c1a5a": {
+					"name": "long",
+					"type": "integral_type"
+				},
+				"b5656629587221b8239b7141684c8f69c57c8f23": {
+					"name": "long double",
+					"type": "floating_point_type"
+				}
+			}
+		}

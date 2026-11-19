@@ -1,0 +1,9 @@
+project: savantenvs/retdec
+target: macho_format
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/macho_format/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_macho_format
+    libfuzzer: true
+    timeout: 10

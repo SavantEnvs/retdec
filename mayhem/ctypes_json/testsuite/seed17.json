@@ -1,0 +1,22 @@
+{
+			"functions": {
+				"ff": {
+					"decl": "const float ff();",
+					"header": "CHeader.h",
+					"name": "ff",
+					"params": [],
+					"ret_type": "685e80366130387cb75c055248326976d16fdf8d"
+				}
+			},
+			"types": {
+				"gg5e80366130387cb75c055248326976d16fdf8d": {
+					"name": "float",
+					"type": "floating_point_type"
+				},
+				"685e80366130387cb75c055248326976d16fdf8d": {
+					"name": "const",
+					"modified_type": "gg5e80366130387cb75c055248326976d16fdf8d",
+					"type": "qualifier"
+				}
+			}
+		}

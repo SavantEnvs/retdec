@@ -1,0 +1,9 @@
+project: savantenvs/retdec
+target: config_json
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/config_json/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_config_json
+    libfuzzer: true
+    timeout: 10

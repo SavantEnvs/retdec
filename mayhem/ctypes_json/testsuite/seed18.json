@@ -1,0 +1,23 @@
+{
+			"functions": {
+				"ff": {
+					"decl": "int ff(int b, ...);",
+					"header": "CHeader.h",
+					"name": "ff",
+					"params": [
+						{
+							"name": "b",
+							"type": "46f8ab7c0cff9df7cd124852e26022a6bf89e315"
+						}
+					],
+					"ret_type": "46f8ab7c0cff9df7cd124852e26022a6bf89e315",
+					"vararg": true
+				}
+			},
+			"types": {
+				"46f8ab7c0cff9df7cd124852e26022a6bf89e315": {
+					"name": "int",
+					"type": "integral_type"
+				}
+			}
+		}
